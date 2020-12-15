@@ -1,0 +1,77 @@
+.App {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.counter {
+  width: 20px;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.left-panel {
+  width: 70%;
+}
+
+.right-panel {
+  width: 30%;
+  min-width: 150px;
+  border-left: 1px solid #ccc;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.categories > div {
+  flex-grow: 1;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.categories > div.active {
+  border-bottom: 5px solid black;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.products > div {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.cart {
+  padding: 20px;
+}
+
+.cart > div {
+  margin-bottom: 10px;
+}
+
+.total {
+  padding: 10px 20px;
+  border-top: 1px solid #ccc;
+}
